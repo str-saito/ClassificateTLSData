@@ -16,7 +16,13 @@ RUN python3 -m pip install --no-cache-dir --break-system-packages \
         lckr-jupyterlab-variableinspector==3.2.4 \
         jupyterlab_widgets==3.0.12 \
         ipywidgets==8.1.5 \
-        import-ipynb==0.2
+        import-ipynb==0.2 \
+        pandas==2.2.3 \
+        numpy \
+        scikit-learn \
+        xgboost \ 
+        matplotlib \ 
+        seaborn
 
 RUN python3 -m pip install --no-cache-dir --break-system-packages \
         torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 \
